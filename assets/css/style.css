@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 95%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+}
+
+@media only screen and (max-width : 768px) {
+    body {
+        font-size: 80%;
+    }
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: inherit;
+}
+h1 { font-size: 3.998em; font-weight: 900; }
+h2 { font-size: 2.827em; font-weight: 900; }
+h3 { font-size: 1.999em; font-weight: 300; }
+h4 { font-size: 1.414em; font-weight: 300; }
+
+i { margin: 0 2px; }
+
+hr { border-color: #666; }
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover, a:focus, a:active {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+header {
+    background: #f2f2f2;
+}
+
+header img {
+    max-width: 125px;
+    border-radius: 50%;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    padding: 10% 5%;
+    text-align: center;
+    max-width: 800px;
+}
+
+.projects {
+    margin: 20px auto;
+}
